@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import CourseDetail from './pages/CourseDetail';
 import MyCourses from './pages/MyCourses';
@@ -8,14 +9,16 @@ import MyCourses from './pages/MyCourses';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App flex flex-col min-h-screen">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/course-detail" element={<CourseDetail />} />
-          <Route path="/courses/:id" element={<CourseDetail />} />
-          <Route path="/my-courses" element={<MyCourses />} />
-        </Routes>
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/courses/:id" element={<CourseDetail />} />
+            <Route path="/my-courses" element={<MyCourses />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
     </Router>
   );
