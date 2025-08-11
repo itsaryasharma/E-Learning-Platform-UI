@@ -2,6 +2,8 @@
 
 A modern, responsive e-learning platform built with React, featuring comprehensive course management, progress tracking, and interactive learning experiences.
 
+## 🌐 Live Demo 👉 [Check it out on Git Hub Pages](https://itsaryasharma.github.io/E-Learning-Platform-UI/)
+
 ## 📋 Project Overview
 
 The E-Learning Platform UI is a modern, responsive frontend application built with React that aims to deliver a seamless and engaging learning experience for users. Designed as an internship project, it replicates the core functionalities of professional e-learning platforms, enabling users to browse courses, track progress, and interact with rich multimedia content—all within a polished and intuitive interface.
@@ -58,12 +60,12 @@ This E-Learning Platform UI stands as a solid foundation for anyone looking to d
 
 ## 🛠️ Technology Stack
 
-- **Frontend Framework**: React  with Vite
-- **Styling**: Tailwind CSS 
-- **Routing**: React Router DOM 
+- **Frontend Framework**: React with Vite
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
 - **State Management**: React Hooks (useState, useEffect, useMemo)
 - **Data Persistence**: localStorage for progress tracking
-- **Build Tool**: Vite 
+- **Build Tool**: Vite
 - **Package Manager**: npm
 
 ## 📁 Project Structure
@@ -98,15 +100,15 @@ src/
 - Node.js (v16 or higher)
 - npm (v8 or higher)
 
-
-
 ### Installation & Deployment
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/itsaryasharma/e-learning-platform-ui.git
    cd e-learning-platform-ui
 
+   ```
 
 2. **Install dependencies**
 
@@ -126,17 +128,21 @@ src/
 ## 🚀 How to Run and Deploy the Project
 
 ### 🖥 Local Development
-1️⃣ Install dependencies  
+
+1️⃣ Install dependencies
+
 ```bash
 npm install
 ```
 
-2️⃣ Start the development server  
+2️⃣ Start the development server
+
 ```bash
 npm run dev
 ```
 
-3️⃣ Open your browser and go to:  
+3️⃣ Open your browser and go to:
+
 ```
 http://localhost:5173
 ```
@@ -145,22 +151,27 @@ http://localhost:5173
 
 ### 🌐 Deployment on GitHub Pages
 
-1️⃣ Install GitHub Pages package  
+1️⃣ Install GitHub Pages package
+
 ```bash
 npm install gh-pages --save-dev
 ```
 
 2️⃣ Add homepage URL to `package.json`  
-Replace with your GitHub username & repo name:  
+Replace with your GitHub username & repo name:
+
 ```json
 "homepage": "https://<your-github-username>.github.io/<your-repo-name>"
 ```
-**Example:**  
+
+**Example:**
+
 ```json
 "homepage": "https://itsaryasharma.github.io/e-learning-platform-ui"
 ```
 
-3️⃣ Add deployment scripts to `package.json`  
+3️⃣ Add deployment scripts to `package.json`
+
 ```json
 "scripts": {
   "dev": "vite",
@@ -171,7 +182,8 @@ Replace with your GitHub username & repo name:
 }
 ```
 
-4️⃣ Build and deploy  
+4️⃣ Build and deploy
+
 ```bash
 npm run deploy
 ```
@@ -179,16 +191,20 @@ npm run deploy
 ---
 
 ✅ **Access your app**  
-Once deployed, visit:  
+Once deployed, visit:
+
 ```
 https://<your-github-username>.github.io/<your-repo-name>
 ```
-**Example:**  
+
+**Example:**
+
 ```
 https://itsaryasharma.github.io/e-learning-platform-ui
 ```
 
 > ⏳ Deployment may take 1–2 minutes to go live.
+
 ### Available Scripts
 
 - `npm run dev` - Start development server with hot reload
