@@ -58,12 +58,12 @@ This E-Learning Platform UI stands as a solid foundation for anyone looking to d
 
 ## 🛠️ Technology Stack
 
-- **Frontend Framework**: React 19 with Vite
-- **Styling**: Tailwind CSS 3.4.0
-- **Routing**: React Router DOM 7.8.0
+- **Frontend Framework**: React  with Vite
+- **Styling**: Tailwind CSS 
+- **Routing**: React Router DOM 
 - **State Management**: React Hooks (useState, useEffect, useMemo)
 - **Data Persistence**: localStorage for progress tracking
-- **Build Tool**: Vite 7.1.0
+- **Build Tool**: Vite 
 - **Package Manager**: npm
 
 ## 📁 Project Structure
@@ -98,14 +98,15 @@ src/
 - Node.js (v16 or higher)
 - npm (v8 or higher)
 
-### Installation
+
+
+### Installation & Deployment
 
 1. **Clone the repository**
-
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/itsaryasharma/e-learning-platform-ui.git
    cd e-learning-platform-ui
-   ```
+
 
 2. **Install dependencies**
 
@@ -122,6 +123,72 @@ src/
 4. **Open your browser**
    Navigate to `http://localhost:5173`
 
+## 🚀 How to Run and Deploy the Project
+
+### 🖥 Local Development
+1️⃣ Install dependencies  
+```bash
+npm install
+```
+
+2️⃣ Start the development server  
+```bash
+npm run dev
+```
+
+3️⃣ Open your browser and go to:  
+```
+http://localhost:5173
+```
+
+---
+
+### 🌐 Deployment on GitHub Pages
+
+1️⃣ Install GitHub Pages package  
+```bash
+npm install gh-pages --save-dev
+```
+
+2️⃣ Add homepage URL to `package.json`  
+Replace with your GitHub username & repo name:  
+```json
+"homepage": "https://<your-github-username>.github.io/<your-repo-name>"
+```
+**Example:**  
+```json
+"homepage": "https://itsaryasharma.github.io/e-learning-platform-ui"
+```
+
+3️⃣ Add deployment scripts to `package.json`  
+```json
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+```
+
+4️⃣ Build and deploy  
+```bash
+npm run deploy
+```
+
+---
+
+✅ **Access your app**  
+Once deployed, visit:  
+```
+https://<your-github-username>.github.io/<your-repo-name>
+```
+**Example:**  
+```
+https://itsaryasharma.github.io/e-learning-platform-ui
+```
+
+> ⏳ Deployment may take 1–2 minutes to go live.
 ### Available Scripts
 
 - `npm run dev` - Start development server with hot reload
