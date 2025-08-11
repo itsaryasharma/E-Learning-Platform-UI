@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://itsaryasharma.github.io/E-Learning-Platform-UI",
+  "homepage": "https://itsaryasharma.github.io/E-Learning-Platform-UI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
