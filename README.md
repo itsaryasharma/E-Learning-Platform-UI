@@ -1,8 +1,30 @@
 # 🎓 E-Learning Platform UI
 
-A modern, responsive e-learning platform built with React, featuring comprehensive course management, progress tracking, and interactive learning experiences.
+![Frontend](https://img.shields.io/badge/Frontend-React%20%26%20Vite-blue)
+![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS-06B6D4)
+![Routing](https://img.shields.io/badge/Routing-React%20Router%20DOM-orange)
+![State Management](https://img.shields.io/badge/State%20Management-React%20Hooks-61DAFB)
+![Data Persistence](https://img.shields.io/badge/Data%20Persistence-localStorage-informational)
+![Built With](https://img.shields.io/badge/Built%20with-Vite%20%7C%20NPM-violet)
+![Deployed with GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-informational?logo=github)
 
 ## 🌐 Live Demo 👉 [Check it out on Git Hub Pages](https://itsaryasharma.github.io/E-Learning-Platform-UI/)
+
+---
+
+**COMPANY:** CODETECH IT SOLUTIONS
+
+**NAME:** ARYA KUMAR
+
+**INTERN ID:** CT04DZ311
+
+**DOMAIN:** FRONTEND WEB DEVELOPMENT
+
+**DURATION:** 4 WEEKS
+
+**MENTOR:** NEELA SANTOSH
+
+---
 
 ## 📋 Project Overview
 
@@ -24,10 +46,7 @@ Overall, this project demonstrates the ability to build an industry-level e-lear
 
 This E-Learning Platform UI stands as a solid foundation for anyone looking to deliver educational content online with modern frontend technologies, serving both learners and educators with a streamlined, interactive interface designed for success.
 
-- **Course Listing**: Browse and search through a comprehensive catalog of courses
-- **Progress Tracking**: Monitor learning progress with interactive progress bars and analytics
-- **Video Embedding**: Integrated video content for enhanced learning experiences
-- **Multi-page Interface**: Seamless navigation between different sections of the platform
+---
 
 ## ✨ Key Features
 
@@ -58,6 +77,8 @@ This E-Learning Platform UI stands as a solid foundation for anyone looking to d
 - **Sorting Options**: Sort by relevance, popularity, price, and date
 - **Category Browsing**: Organized course categories for easy discovery
 
+---
+
 ## 🛠️ Technology Stack
 
 - **Frontend Framework**: React with Vite
@@ -67,6 +88,8 @@ This E-Learning Platform UI stands as a solid foundation for anyone looking to d
 - **Data Persistence**: localStorage for progress tracking
 - **Build Tool**: Vite
 - **Package Manager**: npm
+
+---
 
 ## 📁 Project Structure
 
@@ -92,6 +115,8 @@ src/
 ├── main.jsx                   # Application entry point
 └── index.css                  # Global styles and Tailwind imports
 ```
+
+---
 
 ## 🚀 Getting Started
 
@@ -124,6 +149,8 @@ src/
 
 4. **Open your browser**
    Navigate to `http://localhost:5173`
+
+---
 
 ## 🚀 How to Run and Deploy the Project
 
@@ -308,6 +335,8 @@ The platform is built with a **mobile-first approach** and includes:
 - **Real-time Updates**: Immediate progress reflection
 - **Error Handling**: Graceful fallbacks for storage issues
 
+---
+
 ## 🎯 Internship Requirements Fulfillment
 
 ### ✅ Core Requirements
@@ -347,19 +376,15 @@ The platform is built with a **mobile-first approach** and includes:
 - **Track Progress**: Update progress on course detail pages
 - **View Analytics**: Check learning dashboard for insights
 
-## 🚀 Deployment
-
-### Build for Production
-
-```bash
-npm run build
-```
+---
 
 ### Deploy Options
 
 - **Vercel**: Connect repository for automatic deployment
 - **Netlify**: Drag and drop build folder
 - **GitHub Pages**: Configure for static hosting
+
+---
 
 ## 📈 Future Enhancements
 
@@ -379,6 +404,8 @@ npm run build
 - **Caching**: Service worker implementation
 - **CDN**: Content delivery network integration
 
+---
+
 ## 🤝 Contributing
 
 ### Development Guidelines
@@ -396,16 +423,34 @@ npm run build
 - **Performance**: Optimized rendering and updates
 - **Accessibility**: WCAG compliance
 
+---
+
 ## 📜 LICENSE
 
 MIT License
 
-This project is created for educational and internship purposes.
+---
 
-## 👨‍💻 Author
-
-**Internship Project** - E-Learning Platform Frontend Development
+## 👨‍💻 Author - Arya Kumar
 
 ---
 
-**Note**: This project demonstrates industry-level frontend development skills with modern React practices, responsive design, and comprehensive user experience features suitable for professional e-learning platforms.
+# OUTPUTS
+
+<img width="1918" height="1017" alt="Image" src="https://github.com/user-attachments/assets/46104d82-d61a-4dbc-94a7-252a2c577e42" />
+
+<img width="1918" height="1016" alt="Image" src="https://github.com/user-attachments/assets/d9513da3-7832-4bdf-b251-e153c4f021f2" />
+
+<img width="1918" height="1012" alt="Image" src="https://github.com/user-attachments/assets/084ff2fe-62d1-434a-a214-01f6aaa17dbe" />
+
+<img width="1913" height="1012" alt="Image" src="https://github.com/user-attachments/assets/607a6d36-c002-4f41-b387-ca5692d41710" />
+
+<img width="1918" height="1078" alt="Image" src="https://github.com/user-attachments/assets/25bd62a7-de1b-4833-8eff-17d53852265d" />
+
+<img width="1918" height="1012" alt="Image" src="https://github.com/user-attachments/assets/db61de40-4d2f-4483-8729-4f061741799d" />
+
+<img width="1915" height="1015" alt="Image" src="https://github.com/user-attachments/assets/f79b13ba-50a9-4c48-9daf-3228b368d0a0" />
+
+---
+
+> **Thank you for reviewing my project!**
