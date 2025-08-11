@@ -431,9 +431,6 @@ MIT License
 
 ---
 
-## 👨‍💻 Author - Arya Kumar
-
----
 
 # OUTPUTS
 
