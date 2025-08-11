@@ -8,7 +8,8 @@ import MyCourses from './pages/MyCourses';
 
 function App() {
   return (
-    <Router>
+    // Add the basename prop here with your repository name
+    <Router basename="/E-Learning-Platform-UI/">
       <div className="App flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
